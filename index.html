@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventLitez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span>EventLitez</span>
+       <div class="input-txt">
+        <input type="text" id="event-name" placeholder="Event name">
+        <input type="date" id="event-date">
+        <input type="time" id="event-time">
+        <input type="text" id="event-place" placeholder="Event Loaction">
+        <button onclick="addEvent()" id="submit-event"> Add Event</button>
+        <div class="EventList" id="event-list"></div>
+       </div>
+
+    </div>
+    <!-- Java Script file linking -->
+    <script src="script.js"></script>
+</body>
+</html>
