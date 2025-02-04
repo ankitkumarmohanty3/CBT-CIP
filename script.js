@@ -11,7 +11,7 @@ function addEvent() {
 
     let eventlist = document.getElementById("event-list");
 
-    // Create a new event card instead of using an existing one
+   
     let eventcard = document.createElement("div");
     eventcard.className = "event-card";
 
@@ -24,7 +24,7 @@ function addEvent() {
 
     eventlist.appendChild(eventcard);
 
-    // Clear input fields
+  
     document.getElementById("event-name").value = "";
     document.getElementById("event-date").value = "";
     document.getElementById("event-time").value = "";
